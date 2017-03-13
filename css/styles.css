@@ -1,0 +1,43 @@
+h1 {
+  color: blue;
+  text-decoration: underline;
+  text-align: center;
+  font-size: 50px;
+  font-weight: bolder;
+}
+
+h2 {
+  color: lightblue;
+  font-size: 30px;
+}
+
+h3 {
+  color: maroon;
+}
+
+img {
+  float: left;
+  margin: 10px;
+}
+
+.animal {
+  width: 300px;
+  float: left;
+  border: 1px solid grey;
+  padding: 10px;
+  margin: 10px;
+  flex-flow: wrap;
+}
+
+.animal p a {
+  font-style: italic;
+  text-decoration: none;
+}
+
+.column {
+  margin: 10px;
+}
+
+.column .animal h2 {
+  color: brown;
+}
